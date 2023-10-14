@@ -66,3 +66,25 @@ console.log(null >=0);
 
 console.log("2" === 2);// ===datatype ko check krta hai
 
+
+// ------------memory-----------
+
+//stack(primitive), Heap(non primitive)
+let myYoutube = "simpikumari"
+let anothername = myYoutube
+anothername = "hello world"
+console.log(myYoutube);
+console.log(anothername);
+
+
+
+let user ={
+    email: "abc@google.com",
+    upiId: "geywyeuew"
+}
+
+let userTwo = user
+
+userTwo.email = "fhehe@hhdej.com"
+console.log(userTwo.email);
+console.log(user.email);
