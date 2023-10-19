@@ -36,6 +36,8 @@ console.log(regularUser.fullName.userName.lname);
 
 
 const obj1 ={1:"a",2:"b"}
+console.log(Object.keys(obj1));
+console.log(Object.values(obj1));
 
 const obj2 ={3:"a",4:"b"}
 
